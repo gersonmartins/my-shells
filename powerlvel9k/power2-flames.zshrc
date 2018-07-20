@@ -18,7 +18,7 @@ ZSH=/usr/share/oh-my-zsh
 POWERLEVEL9K_MODE="nerdfont-complete"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="\uE0B4"
+POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR="\uE0c9"
 POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR="\uE0B6"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time ram)
@@ -134,7 +134,6 @@ alias pipreset="sudo pip freeze | xargs sudo pip uninstall -y"
 # Git
 alias gu="git up"
 alias gdt="git difftool && delori"
-
 
 #autoload -U promptinit; promptinit
 #prompt pure
